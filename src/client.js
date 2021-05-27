@@ -1,9 +1,7 @@
-import sanityClient from "@sanity/client"
+import sanityClient from '@sanity/client';
 
-export default sanityClient(
-    {
-        projectId: "4edj4bzz",
-        dataset: "production",
-        useCdn: true,
-    }
-);
+export default sanityClient({
+  projectId: '4edj4bzz',
+  dataset: 'production',
+  useCdn: true,
+});
